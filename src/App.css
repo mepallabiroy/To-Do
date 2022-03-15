@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .App-link {
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app {
+  padding: 30px;
+  background-color: floralwhite;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.App-content {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding: 2%;
+  margin-top: 5%;
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+  height: 70%;
+  background-color: #eee;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Form {
+  flex-direction: row;
+}
+.Team {
+  position: absolute;
+  right: 0;
+  padding-right: 5%;
+  font-size: x-small;
+  text-align: start;
 }
