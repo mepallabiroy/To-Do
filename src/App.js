@@ -84,11 +84,7 @@ function App() {
           />
           <h1 style={{ marginLeft: 20 }}>Todo List</h1>{' '}
           <div className="Team">
-            <p>Guide: Dr. Preetisudha Meher</p>
-            <p>Team Members: </p>
-            <ul>Arun Kumar Rajak - ECE/18/14</ul>
-            <ul>Manjay Poddar - ECE/18/02</ul>
-            <ul>Pallabi Roy - ECE/18/30</ul>
+            <p>Pallabi Roy</p>
           </div>
         </div>
 
